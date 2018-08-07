@@ -1,0 +1,6 @@
+!.gitignore
+*/bitbake-cookerdaemon.log
+*/cache/
+*/conf/templateconf.cfg
+*/conf/sanity_info
+*/tmp/
