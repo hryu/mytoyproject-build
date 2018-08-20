@@ -1,0 +1,6 @@
+#!/bin/bash
+docker run --rm -it \
+       -v /home/hoeun.ryu/mytoyproject:/home/pokyuser/mytoyproject \
+       -v /home/hoeun.ryu/.bashrc:/home/pokyuser/.bashrc \
+       -v /home/hoeun.ryu/.profile:/home/pokyuser/.profile \
+       crops/poky --workdir=/home/pokyuser/mytoyproject
